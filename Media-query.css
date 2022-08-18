@@ -1,0 +1,365 @@
+@media only screen and (max-width:1200px) {
+html,
+    body{
+        overflow-x: hidden;
+        font-size: 9px;
+    }
+
+    .header1 h1{
+        font-size: 60px;
+    }
+
+    .headerInfo{
+        padding-top: 20%;
+    }
+
+    .btn:link,
+    .btn:visited{
+        width: 135px;
+        height: 60px;
+    }
+
+    .bio1{
+        margin-top: 260px;
+    }
+
+    .text1{
+        margin-top: 30px;
+    }
+
+    .edu1{
+        margin-top: 250px;
+        margin-left: -70px;
+    }
+
+    .text2{
+        margin-top: 220px;
+    }
+
+    .skill1{
+        margin-top: 250px;
+    }
+
+    .text3{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width:1023px) {
+    html,
+    body{
+        overflow-x: hidden;
+        font-size: 7.5px;
+    }
+
+
+    .btn:link,
+    .btn:visited{
+        width: 125px;
+        height: 50px;
+    }
+
+
+    .bio1{
+        margin-top: 220px;
+    }
+
+    .text1{
+        margin-top: 20px;
+    }
+
+    .edu1{
+        margin-top: 210px;
+        margin-left: -70px;
+    }
+
+    .text2{
+        margin-top: 180px;
+    }
+
+    .skill1{
+        margin-top: 180px;
+    }
+
+    .text3{
+        font-size: 19px;
+    }
+
+    .add1{
+        margin-left: -40px ;
+    }
+
+    .add2{
+        margin-left: 40px;
+        font-size: 10px;
+    }
+    address iframe{
+        width: 370px;
+        height: 300px;
+    }
+
+    .p3{
+        width: 80%;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+
+    .headerInfo{
+        padding-top: 35%;
+    }
+
+    .btn:link,
+    .btn:visited{
+        width: 95px;
+        height: 50px;
+    }
+
+    .text3{
+        font-size: 20px;
+        margin-top: -50px;
+    }
+}
+
+@media only screen and (max-width:968px){
+
+.headerInfo{
+    padding-top: 35%;
+}
+
+}
+
+@media only screen and (max-width:850px) {
+
+    .btn:link,
+    .btn:visited{
+        width: 95px;
+        height: 50px;
+    }
+
+
+}
+
+@media only screen and (max-width:768px) {
+    html,
+    body{
+        overflow-x: hidden;
+        font-size: 6.5px;
+    }
+
+    .image1{
+        height: 100px;
+        width: auto;
+        float: left;
+    }
+
+    .image4{
+        width: 34px;
+        height: 35px;
+    }
+
+    .headerInfo{
+        padding-top: 45%;
+        margin-left: 30px;
+    }
+
+    .header1 h1{
+        font-size: 60px;
+        font-family: "Agency FB";
+        letter-spacing: 13px;
+        width: 100%;
+        width: max-content;
+    }
+
+    .header1 h2{
+        font-size: 35px;
+        font-family: "Agency FB";
+    }
+
+    .btn:link,
+    .btn:visited{
+        width: 85px;
+        height: 40px;
+    }
+
+    .bio1{
+        margin-top: 210px;
+    }
+
+    .text1{
+        margin-top: -30px;
+    }
+
+    .edu1{
+        margin-top: 200px;
+        margin-left: -90px;
+        font-size: 1100%;
+    }
+
+    .text2{
+        margin-top: 150px;
+
+    }
+
+    .skill1{
+        margin-left: -50px;
+    }
+
+    .text3{
+        font-size: 18px;
+    }
+
+    address iframe{
+        width: 290px;
+        height: 220px;
+    }
+    .p3{
+        width: 90%;
+        margin-left: 20px;
+    }
+    .add1{
+        margin-left: -40px ;
+        margin-top: -40px;
+    }
+
+    .add2{
+        margin-left: 40px;
+        margin-top: -40px;
+        font-size: 7px;
+    }
+
+}
+
+@media only screen and (max-width:629px) {
+
+    .header1 h1{
+        font-size: 45px;
+        font-family: "Agency FB";
+        letter-spacing: 13px;
+        width: 100%;
+        width: max-content;
+    }
+
+    .header1 h2{
+        font-size: 25px;
+        font-family: "Agency FB";
+    }
+
+    .btn:link,
+    .btn:visited{
+        width: 90px;
+        height: 40px;
+
+    }
+}
+
+@media only screen and (max-width:479px) {
+    html,
+    body{
+        overflow-x: hidden;
+        font-size: 6px;
+    }
+
+    .header1 h1{
+        font-size: 30px;
+        font-family: "Agency FB";
+        letter-spacing: 13px;
+        width: 100%;
+        width: max-content;
+    }
+
+    .header1 h2{
+        font-size: 20px;
+        font-family: "Agency FB";
+    }
+
+    .image4{
+        width: 34px;
+        height: 35px;
+        margin-bottom: 13px;
+    }
+
+    .headerInfo{
+        padding-top: 55%;
+    }
+
+    .btn:link,
+    .btn:visited{
+        width: 90px;
+        height: 30px;
+    }
+
+    .bio1{
+        margin-top: -80px;
+    }
+
+    .text1{
+        margin-top: 10px;
+    }
+
+    .edu1{
+        margin-top: -40px;
+        margin-left: -10px;
+        font-size: 1100%;
+    }
+
+    .text2{
+        margin-top: -90px;
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    .skill1{
+        margin-top: -95px;
+        margin-left: 8px;
+        font-size: 850%;
+    }
+
+    .text3{
+        font-size: 16px;
+        margin-top: -140px;
+        margin-left: 30px;
+    }
+
+    address iframe{
+        width: 340px;
+        height: 220px;
+    }
+    .p3{
+        width: 100%;
+        margin-left: 40px;
+    }
+    .add1{
+        margin-left: -40px ;
+        margin-top: -40px;
+    }
+
+    .add2{
+        margin-left: -40px;
+        margin-top: 20px;
+        font-size: 6px;
+    }
+}
+@media only screen and (max-width:429px) {
+
+    .headerInfo{
+        padding-top: 90%;
+        margin-left: 50px;
+    }
+
+    .header1 h1{
+        font-size: 30px;
+        font-family: "Agency FB";
+        letter-spacing: 13px;
+        width: 100%;
+        width: 100%;
+
+    }
+
+    .header1 h2{
+        font-size: 20px;
+        font-family: "Agency FB";
+    }
+
+}

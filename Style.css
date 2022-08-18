@@ -1,0 +1,417 @@
+html,
+body{
+    overflow-x: hidden;
+    font-size: 8px;
+    background-image:-webkit-linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)) ,url("222.jpg") ;
+    background-image:linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)) ,url("222.jpg") ;
+}
+/* HEADER */
+
+.header1{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+.header1 h1{
+    font-size: 90px;
+    font-family: "Agency FB";
+    letter-spacing: 13px;
+    width: 100%;
+    width: max-content;
+}
+
+.header1 h2{
+    font-size: 50px;
+    font-family: "Agency FB";
+}
+
+.image1{
+    height: 130px;
+    width: auto;
+    float: left;
+}
+
+.headerInfo{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+    grid-gap: 20px;
+    padding-top: 35%;
+}
+
+.headerInfo p{
+    display: inline-block;
+    font-size: 200%;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.image4{
+    width: 40px;
+    height: 40px;
+}
+
+.socialMedia{
+    list-style: none;
+    float: right;
+    margin-top: 40px;
+}
+
+.socialMedia li{
+    display: inline-block;
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+
+.socialMedia a{
+    padding: 6px;
+}
+
+header{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.headerInfo{
+    width: 100%;
+}
+
+.arr1{
+    font-size: 18px;
+}
+
+.btn:link,
+.btn:visited{
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    transform: skew(20deg);
+    background: #555;
+    text-align: center;
+    padding: 0px;
+}
+
+.btn-full:link,
+.btn-full:visited{
+    background-color: cadetblue;
+    color: black;
+}
+
+.btn-full:hover,
+.btn-full:active{
+    background-color: darkslategray;
+    color: white;
+}
+
+.btn-full:hover p,
+.btn-full:active p{
+    color: white;
+}
+
+.back-to-top{
+    position: fixed;
+    bottom: 10px;
+    right: 50px;
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+    background-color: #0b5ed7;
+    color: white;
+    border: 2px black;
+    border-radius: 7px;
+    box-shadow: 7px 7px 12px -7px rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: 0.7s;
+}
+
+.show-top-btn{
+    opacity: 1;
+}
+
+.back-to-top:hover,
+.back-to-top:active{
+    background-color: darkgoldenrod;
+    color: white;
+}
+/*BIO*/
+
+.biopart{
+    background-image:-webkit-linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)) ,url("555.png") ;
+    background-image:linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.7)) ,url("555.png") ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 100px;
+    height: 100vh;
+}
+
+.bio1{
+    text-align: center;
+    font-size: 1200%;
+    margin-top: 140px;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+.text1{
+    font-weight: 500;
+    font-size: 220%;
+    padding: 10px;
+    margin-bottom: 300px;
+    margin-top: -50px;
+    color: white;
+}
+
+/*EDUCATION*/
+
+.edupart{
+    background-image: -webkit-linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.7)) ,url("image8.jpg") ;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.7)) ,url("image8.jpg") ;;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 100px;
+    height: 100vh;
+}
+
+.text2{
+    margin-top: 180px;
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 300%;
+    font-family: Ebrima;
+}
+
+.edu1{
+    text-align: center;
+    font-size: 1200%;
+    margin-top: 230px;
+    margin-bottom: 150px;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+/*SKILLS*/
+
+.skillpart{
+
+    background-image: -webkit-linear-gradient(rgba(0,0,0,.95), rgba(0,0,0,.7)) ,url("image10.jpg") ;
+    background-image: linear-gradient(rgba(0,0,0,.95), rgba(0,0,0,.7)) ,url("image10.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 100px;
+    height: 100vh;
+}
+
+.text3{
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 270%;
+    font-family: Ebrima;
+    margin-top: -90px;
+}
+
+.skill1{
+    text-align: center;
+    font-size: 1200%;
+    margin-top: 220px;
+    margin-bottom: 150px;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+/*ADDRESS AND CONTACT ME */
+
+.addresspart{
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.2)) ,url("image11.jpg") ;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.2)) ,url("image11.jpg") ;
+    background-size: cover;
+    padding: 100px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.address1{
+    font-size: 600%;
+}
+
+address iframe{
+    width: 450px;
+    height: 350px;
+}
+
+.p2{
+    font-size: 250%;
+}
+
+.p3{
+    font-size: 300%;
+    background-color: blue;
+    color: whitesmoke;
+    border-radius: 100px;
+    width: 60%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.instagram{
+    margin-bottom: 30px;
+}
+
+.gmail p{
+    font-size: 180%;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.phone{
+    margin-bottom: 30px;
+}
+
+.phone p{
+    font-size: 180%;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.facebook{
+    margin-bottom: 30px;
+}
+
+.facebook p{
+    font-size: 180%;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+
+.instagram p{
+    font-size: 180%;
+    margin-left: 20px;
+    font-weight: 700;
+
+}
+
+.cm1{
+    margin-bottom: 50px;
+}
+
+.contentPanel {
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 20%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.active, .contentPanel:hover {
+    background-color: #0dcaf0;
+}
+
+.inside {
+    padding: 20px;
+    background-color: yellow;
+    font-size: 15px;
+}
+/******* JQUERY ANIMATE ON SCROLL *******/
+
+.animation1{
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.animation1.animate__animated{
+    opacity: 1;
+}
+
+/***project3***/
+
+.morning{
+    opacity: 0;
+}
+.afternoon{
+    opacity: 0;
+}
+.evening{
+    opacity: 0;
+}
+
+.goodMorning{
+    opacity: 1;
+    color: yellow;
+}
+
+.goodAfternoon{
+    opacity: 1;
+    color: blue;
+}
+
+.goodEvening{
+    opacity: 1;
+    color: white;
+}
+
+
+/****CONTACT SECTION****/
+
+.conpart{
+    height: 100vh;
+}
+
+.conhead{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.h1-con{
+    font-size: 50px;
+}
+
+.con-form{
+    margin-left: 600px;
+}
+
+.con-l{
+    margin-bottom: 30px ;
+    font-size: 30px;
+}
+
+.inp1{
+    background-color: whitesmoke;
+}
+
+
+.button3{
+    width: 130px;
+    height: 50px;
+    background-color: darkslateblue;
+    text-align: center;
+    
+    margin-top: 20px;
+    border-radius: 5%;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.button3:hover {
+    background-color: goldenrod;
+    color: black;
+}
